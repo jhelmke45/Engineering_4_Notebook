@@ -57,6 +57,12 @@ Your readme will have various images and gifs on it. Upload a test image and tes
 
 ### Test Link
 
+[Link to notebook](https://github.com/jhelmke45/Engineering_4_Notebook/tree/main)
+
 ### Test Image
 
+![turtle](images/turdle.png)
+
 ### Test GIF
+
+![yum](images/yum.gif)
