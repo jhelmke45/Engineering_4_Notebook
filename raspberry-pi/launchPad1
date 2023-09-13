@@ -2,7 +2,7 @@ import board
 import digitalio
 import time
 
-for x in range (10):
-    print(10-x)
-    time.sleep(1)
-print ("liftoff")
+for x in range (10):    # x counts from 0 to 9
+    print(10-x)         # subtract from 10 to invert count
+    time.sleep(1)       # delay so print is every second
+print ("liftoff")       # print once loop is finished

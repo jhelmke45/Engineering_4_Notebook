@@ -5,16 +5,16 @@ import time
 led1 = digitalio.DigitalInOut(board.GP1)
 led1.direction = digitalio.Direction.OUTPUT
 led2 = digitalio.DigitalInOut(board.GP2)
-led2.direction = digitalio.Direction.OUTPUT
+led2.direction = digitalio.Direction.OUTPUT     # LED setup code
 
-for x in range (10):
+for x in range (10):    # count from 10
     print(10-x)
     led1.value = True
     time.sleep(.5)
     led1.value = False
-    time.sleep(.5)
+    time.sleep(.5)      # turn LED on for half second, off for half second, keeping delay at 1 total
 
 print ("liftoff")
 led2.value = True
 time.sleep(5)
-led2.value = False
+led2.value = False      # leave green LED on for 5 seconds before ending run
