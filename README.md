@@ -3,12 +3,12 @@
 &nbsp;
 
 ## Table of Contents
-* [Raspberry_Pi_Assignment_Template](#raspberry_pi_assignment_template)
+* [Launch_Pad_1](#Launch_Pad_1)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
 
-## Raspberry_Pi_Assignment_Template
+## Launch_Pad_1
 
 ### Assignment Description
 
