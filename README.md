@@ -4,6 +4,9 @@
 
 ## Table of Contents
 * [Launch_Pad_1](#Launch_Pad_1)
+* [Launch_Pad_2](#Launch_Pad_2)
+* [Launch_Pad_3](#Launch_Pad_3)
+* [Launch_Pad_4](#Launch_Pad_4)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
@@ -16,18 +19,81 @@ Write your assignment description here. What is the purpose of this assignment? 
 
 ### Evidence 
 
-Pictures / Gifs of your work should go here. You need to communicate what your thing does. 
-
-### Wiring
-
-This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here. The diagram should be clear enough that I can recreate the wiring from scratch. 
+https://github.com/jhelmke45/Engineering_4_Notebook/assets/113116262/9c988bc3-e03a-46a8-9d17-9b6c1713b339 
 
 ### Code
-Give me a link to your code. [Something like this](https://github.com/millerm22/Engineering_4_Notebook/blob/main/Raspberry_Pi/hello_world.py). Don't make me hunt through your folders, give me a nice link to click to take me there! Remember to **COMMENT YOUR CODE** if you want full credit. 
+
+[Link to code](https://github.com/jhelmke45/Engineering_4_Notebook/blob/main/raspberry-pi/launchPad1)
 
 ### Reflection
 
 What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+
+&nbsp;
+
+## Launch_Pad_2
+
+### Description
+
+### Evidence
+
+https://github.com/jhelmke45/Engineering_4_Notebook/assets/113116262/8163db1a-beec-4597-b05a-54625cc7ab7f
+
+### Wiring
+
+![IMG-2678](https://github.com/jhelmke45/Engineering_4_Notebook/assets/113116262/25332870-f331-473f-a9d9-bf9bfaf81de3)
+
+_Wiring diagram from [Elias](https://github.com/egarcia28/Engineering_4_Notebook), mine is the same because we worked together_
+
+### Code
+
+[Code link](https://github.com/jhelmke45/Engineering_4_Notebook/blob/main/raspberry-pi/launchPad2)
+
+### Reflection
+
+&nbsp;
+
+## Launch_Pad_3
+
+### Description
+
+### Evidence
+
+https://github.com/jhelmke45/Engineering_4_Notebook/assets/113116262/dc3d7ff6-8a32-4b47-86e9-89ed50d6b333
+
+### Wiring
+
+![IMG-2679](https://github.com/jhelmke45/Engineering_4_Notebook/assets/113116262/90b27613-7af4-4e30-a885-179b9a9070e6)
+
+_Diagram from [Elias](https://github.com/egarcia28/Engineering_4_Notebook), we worked together again_
+
+### Code
+
+[Code link](https://github.com/jhelmke45/Engineering_4_Notebook/blob/main/raspberry-pi/launchPad3.py)
+
+### Reflection
+
+&nbsp;
+
+## Launch_Pad_4
+
+### Description
+
+### Evidence
+
+https://github.com/jhelmke45/Engineering_4_Notebook/assets/113116262/d86452d1-b964-48e0-8b8e-269d314eca53
+
+### Wiring
+
+![IMG-2680](https://github.com/jhelmke45/Engineering_4_Notebook/assets/113116262/3420bda8-4b5b-4d88-b1cc-782c8170d9c8)
+
+_Wiring from [Elias](https://github.com/egarcia28/Engineering_4_Notebook), my servo is on GP0 instead of GP4_
+
+### Code
+
+[Code link](https://github.com/jhelmke45/Engineering_4_Notebook/blob/main/raspberry-pi/launchPad4Spicy.py)
+
+### Reflection
 
 &nbsp;
 
