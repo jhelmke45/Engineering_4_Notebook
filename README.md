@@ -15,7 +15,7 @@
 
 ### Assignment Description
 
-Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
+In this assignment, I used the serial monitor to count down from 10, simulating the countdown to liftoff for a rocket. It counts down each socend, and then displays "liftoff" at the end of the run.
 
 ### Evidence 
 
@@ -27,13 +27,15 @@ https://github.com/jhelmke45/Engineering_4_Notebook/assets/113116262/9c988bc3-e0
 
 ### Reflection
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+This assignment was pretty straightforward, but a good introduction to the picos, and a way to get readjusted to VS code. I had also never used a ```for``` loop in python, so that will definitely be useful to know in the future. 
 
 &nbsp;
 
 ## Launch_Pad_2
 
 ### Description
+
+In this assignment I added on to the countdown by making a red light flash on each count. Additionally, a green light turns on for a few seconds when liftoff occurs.
 
 ### Evidence
 
@@ -51,11 +53,15 @@ _Wiring diagram from [Elias](https://github.com/egarcia28/Engineering_4_Notebook
 
 ### Reflection
 
+
+
 &nbsp;
 
 ## Launch_Pad_3
 
 ### Description
+
+In this assignment I further added to the countdown by having the monior print "ready for liftoff" until a button is pressed. Then, the countdown plays out like before.
 
 ### Evidence
 
@@ -78,6 +84,8 @@ _Diagram from [Elias](https://github.com/egarcia28/Engineering_4_Notebook), we w
 ## Launch_Pad_4
 
 ### Description
+
+In this assignment, I added on to the launch sequence by making a servo rotate 180 degrees at the end of the sequence, simulating a tower disconnecting from the rocket before launch. The servo starts retracting 3 seconds before launch, and reaches 180 as it launches.
 
 ### Evidence
 
