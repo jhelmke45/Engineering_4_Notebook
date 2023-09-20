@@ -53,7 +53,7 @@ _Wiring diagram from [Elias](https://github.com/egarcia28/Engineering_4_Notebook
 
 ### Reflection
 
-
+This assignment was also pretty simple, but was a good refresher on using LEDs. It was also a good way to get used to the pin layout of the Pico. There wasn't too much to change in the code, except making the LED blinks part of the normal delay.
 
 &nbsp;
 
@@ -79,6 +79,8 @@ _Diagram from [Elias](https://github.com/egarcia28/Engineering_4_Notebook), we w
 
 ### Reflection
 
+I sort of did the spicy version of this assignment by making the run abort when the button is pressed, but it does not continue to run. This was the first component that we used that is implemented differently with the Pico, but it wasn't too much of a challenge because the Pico made using the button easier. The only thing that was potentially confusing was the difference between pulling the button up or down, but again it wasn't very hard to figure out.
+
 &nbsp;
 
 ## Launch_Pad_4
@@ -102,6 +104,8 @@ _Wiring from [Elias](https://github.com/egarcia28/Engineering_4_Notebook), my se
 [Code link](https://github.com/jhelmke45/Engineering_4_Notebook/blob/main/raspberry-pi/launchPad4Spicy.py)
 
 ### Reflection
+
+I did the spicy version for this assignment by making a seperate ```for``` loop for the last 3 seconds, and having the servo rotate 3 degrees by a time. Using a servo with the Pico was pretty straightforward, and I dont think there were any changes from the Metro. 
 
 &nbsp;
 
