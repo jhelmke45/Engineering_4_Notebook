@@ -8,6 +8,10 @@
 * [Launch_Pad_3](#Launch_Pad_3)
 * [Launch_Pad_4](#Launch_Pad_4)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
+* [Crash_Avoidance_1](#Crash_Avoidance_1)
+* [Crash_Avoidance_2](#Crash_Avoidance_2)
+* [Crash_Avoidance_3](#Crash_Avoidance_3)
+  
 
 &nbsp;
 
@@ -108,6 +112,48 @@ _Wiring from [Elias](https://github.com/egarcia28/Engineering_4_Notebook), my se
 I did the spicy version for this assignment by making a seperate ```for``` loop for the last 3 seconds, and having the servo rotate 3 degrees by a time. Using a servo with the Pico was pretty straightforward, and I dont think there were any changes from the Metro. 
 
 &nbsp;
+
+## Crash_Avoidance_1
+
+### Description
+
+### Evidence
+
+### Wiring
+
+### Code
+
+[Code link](https://github.com/jhelmke45/Engineering_4_Notebook/blob/main/raspberry-pi/crash1.py)
+
+### Reflection
+
+## Crash_Avoidance_2
+
+### Description
+
+### Evidence
+
+### Wiring
+
+### Code
+
+[Code link](https://github.com/jhelmke45/Engineering_4_Notebook/blob/main/raspberry-pi/crash2.py)
+
+### Reflection
+
+## Crash_Avoidance_3
+
+### Description
+
+### Evidence
+
+### Wiring
+
+### Code
+
+[Code link](https://github.com/jhelmke45/Engineering_4_Notebook/blob/main/raspberry-pi/crash3.py)
+
+### Reflection
 
 ## Onshape_Assignment_Template
 
