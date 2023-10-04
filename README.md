@@ -11,6 +11,7 @@
 * [Crash_Avoidance_2](#Crash_Avoidance_2)
 * [Crash_Avoidance_3](#Crash_Avoidance_3)
 * [Beam_1](#Beam_1)
+* [Beam_3](#Beam_3)
   
 
 &nbsp;
@@ -174,6 +175,41 @@ In this assignment my partner [Elias](https://github.com/egarcia28/Engineering_4
 Before even beginning to model, we did some research into "beam theory," and the general behavior of beams when put under stress. This helped us understand what the beam would do when a load was placed on the end, and predict what could go wrong. We ended up modeling ours to be similar to an I beam, with a sloped end. This should hopefully mean that we have a strong base which can distribute weight evenly. To cut down the weight we thinned out the middle section and added a bunch of holes in spots we thought could take the extra stress. 
 
 &nbsp;
+
+## Beam_3
+
+### Description
+
+The goal of this assignment was to use FEA in Onshape to predict how much our beam would bend under load, and where it is most likely to break.
+
+### Part Link
+
+[Onshape Link](https://cvilleschools.onshape.com/documents/bbb8fb04f2c7e9a26ef00d6f/w/8353d61f44a10197441fa346/e/42c13792eaa23e2e07cbfb15?renderMode=10&uiState=651d916dca8ada1448e2b030)
+
+### Part Image
+
+#### All model views are under a stress force of 8 lbf
+
+![Screenshot 2023-10-04 12 24 13 PM](https://github.com/jhelmke45/Engineering_4_Notebook/assets/113116262/3737d893-70bb-4817-b7b9-153ce3bc831d)
+
+_An isometric view of the von Misses stress distribution_
+
+![Screenshot 2023-10-04 12 24 30 PM](https://github.com/jhelmke45/Engineering_4_Notebook/assets/113116262/cb033463-e374-43d6-992e-b225ceeaa383)
+
+_A view of the safety factor distribution_
+
+![Screenshot 2023-10-04 12 24 39 PM](https://github.com/jhelmke45/Engineering_4_Notebook/assets/113116262/1bd1644c-5aed-400f-b713-78a3b687ec40)
+
+_A view of displacement distribution_
+
+![Screenshot 2023-10-04 12 25 11 PM](https://github.com/jhelmke45/Engineering_4_Notebook/assets/113116262/193d2023-97d5-4fa7-8fda-af907f982179)
+
+_Side view of the estimated displacement_
+
+
+### Reflection
+
+It seems like by far the most likely way for the beam to fail is by breaking where it connects the the base, particularly at the top. The safety factor is very good on pretty much the whole beam, despite being under a large load of 8 lbf, but it does dip below .9 at that top connection. We are going to try to thicken the connection to the base in that area, so that hopefully more of the weight is transfered to the base, and is better distributed. I'm not too worried about it bending below the allowed 35mm, because even under this large load it only drops about 10mm. If anything, it might be smart for us to let it bend a little more to prevent it from snapping. 
 
 ## Media Test
 
