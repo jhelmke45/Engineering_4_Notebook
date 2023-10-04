@@ -155,23 +155,23 @@ I did the spicy version for this assignment by making a seperate ```for``` loop 
 
 ### Reflection
 
-## Onshape_Assignment_Template
+## Beam_1
 
 ### Assignment Description
 
-Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
+In this assignment my partner [Elias](https://github.com/egarcia28/Engineering_4_Notebook) and I began designing a beam, with the goal of holding as much weight as possible on one end. The weight will be placed 180mm from the base, and the beam cannot weigh more than 13 grams. There are also some requirements, such as no angles being more than 45 degrees, which are in place to simplify 3D printing. 
 
 ### Part Link 
 
-[Create a link to your Onshape document](https://cvilleschools.onshape.com/documents/003e413cee57f7ccccaa15c2/w/ea71050bb283bf3bf088c96c/e/c85ae532263d3b551e1795d0?renderMode=0&uiState=62d9b9d7883c4f335ec42021). Don't forget to turn on link sharing in your Onshape document so that others can see it. 
+[Onshape Link](https://cvilleschools.onshape.com/documents/bbb8fb04f2c7e9a26ef00d6f/w/8353d61f44a10197441fa346/e/12a872e8fa7823561546f9c6?renderMode=0&uiState=651d7c84c8b5ae0b47f2d3a3)
 
 ### Part Image
 
-Take a nice screenshot of your Onshape document. 
+![beam](https://github.com/jhelmke45/Engineering_4_Notebook/assets/113116262/f2bcce92-0afd-49b4-8c0c-c87431edaf0e)
 
 ### Reflection
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+Before even beginning to model, we did some research into "beam theory," and the general behavior of beams when put under stress. This helped us understand what the beam would do when a load was placed on the end, and predict what could go wrong. We ended up modeling ours to be similar to an I beam, with a sloped end. This should hopefully mean that we have a strong base which can distribute weight evenly. To cut down the weight we thinned out the middle section and added a bunch of holes in spots we thought could take the extra stress. 
 
 &nbsp;
 
