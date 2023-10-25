@@ -11,6 +11,7 @@
 * [Crash_Avoidance_2](#Crash_Avoidance_2)
 * [Crash_Avoidance_3](#Crash_Avoidance_3)
 * [Beam_1](#Beam_1)
+* [Beam_2](#Beam_2)
 * [Beam_3](#Beam_3)
   
 
@@ -118,9 +119,13 @@ I did the spicy version for this assignment by making a seperate ```for``` loop 
 
 ### Description
 
+In this assignment I connected an accelerometer to the Pico, and printed data from it onto the serial monitor.
+
 ### Evidence
 
 ### Wiring
+
+![Accelerometer1 wiring](https://github.com/jhelmke45/Engineering_4_Notebook/assets/113116262/d6e54537-ffd4-4350-9d70-7a380f673acc)
 
 ### Code
 
@@ -128,13 +133,19 @@ I did the spicy version for this assignment by making a seperate ```for``` loop 
 
 ### Reflection
 
+This assignment wasn't too hard, but was a reasonable introduction to the workings of i2c. It was also good practice with f-strings, which I used to print the variables and format the decimals. 
+
 ## Crash_Avoidance_2
 
 ### Description
 
+In this assignment I made use of the accelerometer to turn on an LED when the breadboard is tilted past 90 degrees. The module can also now be disconnected from the computer and powered with a battery.
+
 ### Evidence
 
 ### Wiring
+
+![Accelerometer2 wiring](https://github.com/jhelmke45/Engineering_4_Notebook/assets/113116262/567fca03-5875-49db-91aa-07ff5e39ee27)
 
 ### Code
 
@@ -142,13 +153,19 @@ I did the spicy version for this assignment by making a seperate ```for``` loop 
 
 ### Reflection
 
+The code on this assignment wasn't too hard, but did take some logic. To tell if the board was tilted past 90 degrees, I took advantage that gravity applies a constant downwards acceleration. Because of this, if the Z (vertical) acceleration if less than zero, the board must be tilted so that gravity is either having no affect because it's sideways, or is negative because it's upside down. The baterry was also a nice touch, and the whole finished product feels more complete when you can disconnect it from the computer and it still works like normal.
+
 ## Crash_Avoidance_3
 
 ### Description
 
+In this assignment I added an OLED screen to the accelerometer which prints out angular velocity.
+
 ### Evidence
 
 ### Wiring
+
+![Accelerometer3](https://github.com/jhelmke45/Engineering_4_Notebook/assets/113116262/d7493389-980c-42d6-91b2-6c700090137b)
 
 ### Code
 
@@ -156,60 +173,79 @@ I did the spicy version for this assignment by making a seperate ```for``` loop 
 
 ### Reflection
 
+This assignment was definitely a step up from the others. The OLED was relatively straightforward since we didn't do anything complicated with it, but I did have to do some troubleshooting to figure out all of the commands. The thing that gave me the most trouble was figuring out the i2c system, although part of that ended up being a dead OLED. Switching to angular velocity instead of acceleration was simply a matter of changing the built in command.
+
 ## Beam_1
 
 ### Assignment Description
 
-In this assignment my partner [Elias](https://github.com/egarcia28/Engineering_4_Notebook) and I began designing a beam, with the goal of holding as much weight as possible on one end. The weight will be placed 180mm from the base, and the beam cannot weigh more than 13 grams. There are also some requirements, such as no angles being more than 45 degrees, which are in place to simplify 3D printing. 
+This was the first section of our beam assignment, the goal being to design and mock up a beam that could hold as much weight ( 180mm from the lever point ) as possible without snapping or excessive deflecting, while maintaining a weight below 13g.
 
-### Part Link 
+### Part Link
 
-[Onshape Link](https://cvilleschools.onshape.com/documents/bbb8fb04f2c7e9a26ef00d6f/w/8353d61f44a10197441fa346/e/12a872e8fa7823561546f9c6?renderMode=0&uiState=651d7c84c8b5ae0b47f2d3a3)
+[Link to our Onshape document](https://cvilleschools.onshape.com/documents/bbb8fb04f2c7e9a26ef00d6f/w/8353d61f44a10197441fa346/e/12a872e8fa7823561546f9c6)
 
 ### Part Image
 
-![beam](https://github.com/jhelmke45/Engineering_4_Notebook/assets/113116262/f2bcce92-0afd-49b4-8c0c-c87431edaf0e)
+![Beam Image](https://github.com/egarcia28/Engineering_4_Notebook/blob/main/images/beam.PNG)
 
 ### Reflection
+Like many other groups, we began by reasearching [beam theory](https://en.wikipedia.org/wiki/Euler%E2%80%93Bernoulli_beam_theory#:~:text=Euler%E2%80%93Bernoulli%20beam%20theory%20), a study of how load bearing beams behave elastically and deflect. We then looked into succesful cantilever beam designs, as well as commonplace beam designs that are very prevalent, such as I-Beams ( simillar to the design we ended up going with ). We then began to design our beam using ideas we had gathered, an I-Beam adjacent design with a strong load bearing top section with 45&deg; chamfers to increase strength and printability constraints of the assignment. Other strategic design choices we made include, a thin middle section, as well as holes along the middle and bottom, to reduce mass on a relatively low load bearing components. We also had to make sure that there were no vertical angles above 45&deg; as that was one of our design constraints due to the printer only being able to print up to 45&deg;. Lots of thanks to [Komaram Bheem](https://en.wikipedia.org/wiki/Komaram_Bheem?scrlybrkr=973947e4) for help with the pronunciation and etymology of his name, as well as help with certain aspects of our design.
 
-Before even beginning to model, we did some research into "beam theory," and the general behavior of beams when put under stress. This helped us understand what the beam would do when a load was placed on the end, and predict what could go wrong. We ended up modeling ours to be similar to an I beam, with a sloped end. This should hopefully mean that we have a strong base which can distribute weight evenly. To cut down the weight we thinned out the middle section and added a bunch of holes in spots we thought could take the extra stress. 
+&nbsp;
+
+## Beam_2
+
+### Assignment Description
+For this assignment we built upon our first beam design using Onshape's built in FEA analysis software to determine areas of high stress and displacement in order to edit our design to account for these flaws in our first design.
+
+### Part Link
+
+[Link to our Onshape document](https://cvilleschools.onshape.com/documents/bbb8fb04f2c7e9a26ef00d6f/w/8353d61f44a10197441fa346/e/12a872e8fa7823561546f9c6)
+
+### Part Image
+_All simulations tested with 30N of force_
+![Beam Stress](https://github.com/egarcia28/Engineering_4_Notebook/blob/main/images/stress.PNG)
+_FEA sim of stress -- Max stress around 80MPa_
+
+![Beam Safety](https://github.com/egarcia28/Engineering_4_Notebook/blob/main/images/saftey.PNG)
+_FEA sim of safety factor -- Min around .4_
+
+![Beam Displacement](https://github.com/egarcia28/Engineering_4_Notebook/blob/main/images/displace.PNG)
+_FEA sim of displacement -- Max around 50mm_
+
+### Reflection
+After running the FEA simulation for our initial beam design, we were able to visualise the areas of our beam under the most stress as well as areas most likely to break. As shown in the above images, the part of the top rail nearest the base, as well as the area nearest the weight seem to be the areas under the most stress. In order to strengthen these parts and better distribute the stress, we will be removing material from areas with the littlest stress and adding it to these areas. For example, we could remove material from the center of the upper rail as well as the area closest to the weight under the least stress and add it to the areas described above. The FEA simulation tools in onshape are relatively complete and fairly simple to use, so after running through the short training activities I felt like I had a good grasp on the simulation tools, although, when first testing our beam, we diddn't add a bearing face, so we got unrealistic results (we were able hold >20 lbs of force), but once we fixed that we were able to easily analyze the forces acting on our beam.
 
 &nbsp;
 
 ## Beam_3
 
-### Description
-
-The goal of this assignment was to use FEA in Onshape to predict how much our beam would bend under load, and where it is most likely to break.
+### Assignment Description
+For this section of the beam assignment we first improved our design based on the Onshape FEA simulation, and then tested the improved design in the real world giving us much more accurate results allowing us to iterate on our design once again with accurate, real world data.
 
 ### Part Link
 
-[Onshape Link](https://cvilleschools.onshape.com/documents/bbb8fb04f2c7e9a26ef00d6f/w/8353d61f44a10197441fa346/e/42c13792eaa23e2e07cbfb15?renderMode=10&uiState=651d916dca8ada1448e2b030)
+[Link to our Onshape document](https://cvilleschools.onshape.com/documents/bbb8fb04f2c7e9a26ef00d6f/w/8353d61f44a10197441fa346/e/12a872e8fa7823561546f9c6)
 
 ### Part Image
 
-#### All model views are under a stress force of 8 lbf
+![Beam2 Stress](https://github.com/egarcia28/Engineering_4_Notebook/blob/main/images/stress%202.png)
+_FEA sim of stress 2nd iteration (MPa)_
 
-![Screenshot 2023-10-04 12 24 13 PM](https://github.com/jhelmke45/Engineering_4_Notebook/assets/113116262/3737d893-70bb-4817-b7b9-153ce3bc831d)
+![Beam3 Stress](https://github.com/egarcia28/Engineering_4_Notebook/blob/main/images/stress%203.png)
+_FEA sim of stress 3rd iteration (MPa)_
 
-_An isometric view of the von Misses stress distribution_
+![Beam2 Displacement](https://github.com/egarcia28/Engineering_4_Notebook/blob/main/images/displacement%202.png)
+_FEA sim of displacement 2nd iteration_
 
-![Screenshot 2023-10-04 12 24 30 PM](https://github.com/jhelmke45/Engineering_4_Notebook/assets/113116262/cb033463-e374-43d6-992e-b225ceeaa383)
-
-_A view of the safety factor distribution_
-
-![Screenshot 2023-10-04 12 24 39 PM](https://github.com/jhelmke45/Engineering_4_Notebook/assets/113116262/1bd1644c-5aed-400f-b713-78a3b687ec40)
-
-_A view of displacement distribution_
-
-![Screenshot 2023-10-04 12 25 11 PM](https://github.com/jhelmke45/Engineering_4_Notebook/assets/113116262/193d2023-97d5-4fa7-8fda-af907f982179)
-
-_Side view of the estimated displacement_
+![Beam3 Displacement](https://github.com/egarcia28/Engineering_4_Notebook/blob/main/images/displacement%203.png)
+_FEA sim of displacement 3rd iteration_
 
 
 ### Reflection
-
-It seems like by far the most likely way for the beam to fail is by breaking where it connects the the base, particularly at the top. The safety factor is very good on pretty much the whole beam, despite being under a large load of 8 lbf, but it does dip below .9 at that top connection. We are going to try to thicken the connection to the base in that area, so that hopefully more of the weight is transfered to the base, and is better distributed. I'm not too worried about it bending below the allowed 35mm, because even under this large load it only drops about 10mm. If anything, it might be smart for us to let it bend a little more to prevent it from snapping. 
+When it came to improving our design based on our first FEA simulation, we just added some simple changes to better distribute the stress. These changes include, removing material from the sides by connecting the holes together, and adding that material to the top rail near the base and weight through some simple chamfers and extrusions. When we tested this in the real world we did pretty well and held a decent ammount of weight, but our beam ultimately broke due to the lack of support on the sides created by the singular long hole, causing it to bend sideways and break much quicker. When we went back to Onshape to improve our design from the real world results, we re-connected all of the holes to add support and prevent the beam from twisting, we also added a secondary rail on the top in order to better distribute the stress. When testing our 3rd iteration in the real world it held much more weight and diddn't twist, when it finally broke it shattered showing that we had done a pretty good job of distributing the stress.  
+&nbsp;
 
 ## Media Test
 
