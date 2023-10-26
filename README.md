@@ -143,6 +143,8 @@ In this assignment I made use of the accelerometer to turn on an LED when the br
 
 ### Evidence
 
+https://github.com/jhelmke45/Engineering_4_Notebook/assets/113116262/c0ff3762-131c-401b-8245-428276fb442e
+
 ### Wiring
 
 ![Accelerometer2 wiring](https://github.com/jhelmke45/Engineering_4_Notebook/assets/113116262/567fca03-5875-49db-91aa-07ff5e39ee27)
@@ -162,6 +164,8 @@ The code on this assignment wasn't too hard, but did take some logic. To tell if
 In this assignment I added an OLED screen to the accelerometer which prints out angular velocity.
 
 ### Evidence
+
+https://github.com/jhelmke45/Engineering_4_Notebook/assets/113116262/9e51b337-f006-4da7-bb83-d6b3c2de65c6
 
 ### Wiring
 
