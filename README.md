@@ -13,6 +13,9 @@
 * [Beam_1](#Beam_1)
 * [Beam_2](#Beam_2)
 * [Beam_3](#Beam_3)
+* [Landing_Area_1](#Landing_Area_1)
+* [Morse_Code_1](#Morse_Code_1)
+* [Morse_Code_2](#Morse_Code_2)
   
 
 &nbsp;
@@ -250,6 +253,42 @@ _FEA sim of displacement 3rd iteration_
 ### Reflection
 When it came to improving our design based on our first FEA simulation, we just added some simple changes to better distribute the stress. These changes include, removing material from the sides by connecting the holes together, and adding that material to the top rail near the base and weight through some simple chamfers and extrusions. When we tested this in the real world we did pretty well and held a decent ammount of weight, but our beam ultimately broke due to the lack of support on the sides created by the singular long hole, causing it to bend sideways and break much quicker. When we went back to Onshape to improve our design from the real world results, we re-connected all of the holes to add support and prevent the beam from twisting, we also added a secondary rail on the top in order to better distribute the stress. When testing our 3rd iteration in the real world it held much more weight and diddn't twist, when it finally broke it shattered showing that we had done a pretty good job of distributing the stress.  
 &nbsp;
+
+## Landing_Area_1
+
+### Description
+
+### Evidence
+
+### Wiring
+
+### Code
+
+### Reflection
+
+## Morse_Code_1
+
+### Description
+
+### Evidence
+
+### Wiring
+
+### Code
+
+### Reflection
+
+## Morse_Code_2
+
+### Description
+
+### Evidence
+
+### Wiring
+
+### Code
+
+### Reflection
 
 ## Media Test
 
