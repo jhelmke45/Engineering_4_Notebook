@@ -7,7 +7,16 @@
 * [Launch_Pad_2](#Launch_Pad_2)
 * [Launch_Pad_3](#Launch_Pad_3)
 * [Launch_Pad_4](#Launch_Pad_4)
-* [Onshape_Assignment_Template](#onshape_assignment_template)
+* [Crash_Avoidance_1](#Crash_Avoidance_1)
+* [Crash_Avoidance_2](#Crash_Avoidance_2)
+* [Crash_Avoidance_3](#Crash_Avoidance_3)
+* [Beam_1](#Beam_1)
+* [Beam_2](#Beam_2)
+* [Beam_3](#Beam_3)
+* [Landing_Area_1](#Landing_Area_1)
+* [Morse_Code_1](#Morse_Code_1)
+* [Morse_Code_2](#Morse_Code_2)
+  
 
 &nbsp;
 
@@ -109,25 +118,177 @@ I did the spicy version for this assignment by making a seperate ```for``` loop 
 
 &nbsp;
 
-## Onshape_Assignment_Template
+## Crash_Avoidance_1
 
-### Assignment Description
+### Description
 
-Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
+In this assignment I connected an accelerometer to the Pico, and printed data from it onto the serial monitor.
 
-### Part Link 
+### Evidence
 
-[Create a link to your Onshape document](https://cvilleschools.onshape.com/documents/003e413cee57f7ccccaa15c2/w/ea71050bb283bf3bf088c96c/e/c85ae532263d3b551e1795d0?renderMode=0&uiState=62d9b9d7883c4f335ec42021). Don't forget to turn on link sharing in your Onshape document so that others can see it. 
+### Wiring
 
-### Part Image
+![Accelerometer1 wiring](https://github.com/jhelmke45/Engineering_4_Notebook/assets/113116262/d6e54537-ffd4-4350-9d70-7a380f673acc)
 
-Take a nice screenshot of your Onshape document. 
+### Code
+
+[Code link](https://github.com/jhelmke45/Engineering_4_Notebook/blob/main/raspberry-pi/crash1.py)
 
 ### Reflection
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+This assignment wasn't too hard, but was a reasonable introduction to the workings of i2c. It was also good practice with f-strings, which I used to print the variables and format the decimals. 
+
+## Crash_Avoidance_2
+
+### Description
+
+In this assignment I made use of the accelerometer to turn on an LED when the breadboard is tilted past 90 degrees. The module can also now be disconnected from the computer and powered with a battery.
+
+### Evidence
+
+https://github.com/jhelmke45/Engineering_4_Notebook/assets/113116262/c0ff3762-131c-401b-8245-428276fb442e
+
+### Wiring
+
+![Accelerometer2 wiring](https://github.com/jhelmke45/Engineering_4_Notebook/assets/113116262/567fca03-5875-49db-91aa-07ff5e39ee27)
+
+### Code
+
+[Code link](https://github.com/jhelmke45/Engineering_4_Notebook/blob/main/raspberry-pi/crash2.py)
+
+### Reflection
+
+The code on this assignment wasn't too hard, but did take some logic. To tell if the board was tilted past 90 degrees, I took advantage that gravity applies a constant downwards acceleration. Because of this, if the Z (vertical) acceleration if less than zero, the board must be tilted so that gravity is either having no affect because it's sideways, or is negative because it's upside down. The baterry was also a nice touch, and the whole finished product feels more complete when you can disconnect it from the computer and it still works like normal.
+
+## Crash_Avoidance_3
+
+### Description
+
+In this assignment I added an OLED screen to the accelerometer which prints out angular velocity.
+
+### Evidence
+
+https://github.com/jhelmke45/Engineering_4_Notebook/assets/113116262/9e51b337-f006-4da7-bb83-d6b3c2de65c6
+
+### Wiring
+
+![Accelerometer3](https://github.com/jhelmke45/Engineering_4_Notebook/assets/113116262/d7493389-980c-42d6-91b2-6c700090137b)
+
+### Code
+
+[Code link](https://github.com/jhelmke45/Engineering_4_Notebook/blob/main/raspberry-pi/crash3.py)
+
+### Reflection
+
+This assignment was definitely a step up from the others. The OLED was relatively straightforward since we didn't do anything complicated with it, but I did have to do some troubleshooting to figure out all of the commands. The thing that gave me the most trouble was figuring out the i2c system, although part of that ended up being a dead OLED. Switching to angular velocity instead of acceleration was simply a matter of changing the built in command.
+
+## Beam_1
+
+### Assignment Description
+
+This was the first section of our beam assignment, the goal being to design and mock up a beam that could hold as much weight ( 180mm from the lever point ) as possible without snapping or excessive deflecting, while maintaining a weight below 13g.
+
+### Part Link
+
+[Link to our Onshape document](https://cvilleschools.onshape.com/documents/bbb8fb04f2c7e9a26ef00d6f/w/8353d61f44a10197441fa346/e/12a872e8fa7823561546f9c6)
+
+### Part Image
+
+![Beam Image](https://github.com/egarcia28/Engineering_4_Notebook/blob/main/images/beam.PNG)
+
+### Reflection
+Like many other groups, we began by reasearching [beam theory](https://en.wikipedia.org/wiki/Euler%E2%80%93Bernoulli_beam_theory#:~:text=Euler%E2%80%93Bernoulli%20beam%20theory%20), a study of how load bearing beams behave elastically and deflect. We then looked into succesful cantilever beam designs, as well as commonplace beam designs that are very prevalent, such as I-Beams ( simillar to the design we ended up going with ). We then began to design our beam using ideas we had gathered, an I-Beam adjacent design with a strong load bearing top section with 45&deg; chamfers to increase strength and printability constraints of the assignment. Other strategic design choices we made include, a thin middle section, as well as holes along the middle and bottom, to reduce mass on a relatively low load bearing components. We also had to make sure that there were no vertical angles above 45&deg; as that was one of our design constraints due to the printer only being able to print up to 45&deg;. Lots of thanks to [Komaram Bheem](https://en.wikipedia.org/wiki/Komaram_Bheem?scrlybrkr=973947e4) for help with the pronunciation and etymology of his name, as well as help with certain aspects of our design.
 
 &nbsp;
+
+## Beam_2
+
+### Assignment Description
+For this assignment we built upon our first beam design using Onshape's built in FEA analysis software to determine areas of high stress and displacement in order to edit our design to account for these flaws in our first design.
+
+### Part Link
+
+[Link to our Onshape document](https://cvilleschools.onshape.com/documents/bbb8fb04f2c7e9a26ef00d6f/w/8353d61f44a10197441fa346/e/12a872e8fa7823561546f9c6)
+
+### Part Image
+_All simulations tested with 30N of force_
+![Beam Stress](https://github.com/egarcia28/Engineering_4_Notebook/blob/main/images/stress.PNG)
+_FEA sim of stress -- Max stress around 80MPa_
+
+![Beam Safety](https://github.com/egarcia28/Engineering_4_Notebook/blob/main/images/saftey.PNG)
+_FEA sim of safety factor -- Min around .4_
+
+![Beam Displacement](https://github.com/egarcia28/Engineering_4_Notebook/blob/main/images/displace.PNG)
+_FEA sim of displacement -- Max around 50mm_
+
+### Reflection
+After running the FEA simulation for our initial beam design, we were able to visualise the areas of our beam under the most stress as well as areas most likely to break. As shown in the above images, the part of the top rail nearest the base, as well as the area nearest the weight seem to be the areas under the most stress. In order to strengthen these parts and better distribute the stress, we will be removing material from areas with the littlest stress and adding it to these areas. For example, we could remove material from the center of the upper rail as well as the area closest to the weight under the least stress and add it to the areas described above. The FEA simulation tools in onshape are relatively complete and fairly simple to use, so after running through the short training activities I felt like I had a good grasp on the simulation tools, although, when first testing our beam, we diddn't add a bearing face, so we got unrealistic results (we were able hold >20 lbs of force), but once we fixed that we were able to easily analyze the forces acting on our beam.
+
+&nbsp;
+
+## Beam_3
+
+### Assignment Description
+For this section of the beam assignment we first improved our design based on the Onshape FEA simulation, and then tested the improved design in the real world giving us much more accurate results allowing us to iterate on our design once again with accurate, real world data.
+
+### Part Link
+
+[Link to our Onshape document](https://cvilleschools.onshape.com/documents/bbb8fb04f2c7e9a26ef00d6f/w/8353d61f44a10197441fa346/e/12a872e8fa7823561546f9c6)
+
+### Part Image
+
+![Beam2 Stress](https://github.com/egarcia28/Engineering_4_Notebook/blob/main/images/stress%202.png)
+_FEA sim of stress 2nd iteration (MPa)_
+
+![Beam3 Stress](https://github.com/egarcia28/Engineering_4_Notebook/blob/main/images/stress%203.png)
+_FEA sim of stress 3rd iteration (MPa)_
+
+![Beam2 Displacement](https://github.com/egarcia28/Engineering_4_Notebook/blob/main/images/displacement%202.png)
+_FEA sim of displacement 2nd iteration_
+
+![Beam3 Displacement](https://github.com/egarcia28/Engineering_4_Notebook/blob/main/images/displacement%203.png)
+_FEA sim of displacement 3rd iteration_
+
+
+### Reflection
+When it came to improving our design based on our first FEA simulation, we just added some simple changes to better distribute the stress. These changes include, removing material from the sides by connecting the holes together, and adding that material to the top rail near the base and weight through some simple chamfers and extrusions. When we tested this in the real world we did pretty well and held a decent ammount of weight, but our beam ultimately broke due to the lack of support on the sides created by the singular long hole, causing it to bend sideways and break much quicker. When we went back to Onshape to improve our design from the real world results, we re-connected all of the holes to add support and prevent the beam from twisting, we also added a secondary rail on the top in order to better distribute the stress. When testing our 3rd iteration in the real world it held much more weight and diddn't twist, when it finally broke it shattered showing that we had done a pretty good job of distributing the stress.  
+&nbsp;
+
+## Landing_Area_1
+
+### Description
+
+### Evidence
+
+### Wiring
+
+### Code
+
+### Reflection
+
+## Morse_Code_1
+
+### Description
+
+### Evidence
+
+### Wiring
+
+### Code
+
+### Reflection
+
+## Morse_Code_2
+
+### Description
+
+### Evidence
+
+### Wiring
+
+### Code
+
+### Reflection
 
 ## Media Test
 
