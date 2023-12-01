@@ -259,6 +259,8 @@ When it came to improving our design based on our first FEA simulation, we just 
 
 ### Description
 
+In this assignment I made a program that takes 3 coordinate sets as an input, and outputs the area of the triangle between them.
+
 ### Evidence
 
 ### Wiring
@@ -269,9 +271,13 @@ https://github.com/jhelmke45/Engineering_4_Notebook/blob/main/raspberry-pi/land.
 
 ### Reflection
 
+This assignment was relatively straightforward, but there were some new python components that we haven't really used before. This program took advantage of a funtion for the triangle solver, as well as using the ``` input() ``` command, both of which I don't think we've had in an assignment before. The actual solving of the triangle area was simply a matter of putting the variables into an equation and returning it.
+
 ## Landing_Area_2
 
 ### Description
+
+In this assignment I added on to the previous triangle program by making it print the points and triangle onto a graph displayed on an OLED screen.
 
 ### Evidence
 
@@ -287,6 +293,8 @@ https://github.com/jhelmke45/Engineering_4_Notebook/blob/main/raspberry-pi/land.
 
 ### Description
 
+In this assignment I made a program that takes text as an input, translates it to morse code, and prints the morse code version.
+
 ### Evidence
 
 ### Wiring
@@ -297,9 +305,13 @@ https://github.com/jhelmke45/Engineering_4_Notebook/blob/main/raspberry-pi/morse
 
 ### Reflection
 
+I like the more code-heavy assignments, so this one was fun for me. We were conveniently given a dictionary with all of the morse code traslations, so a lot of time was saved by not having to do it manually. I used a ``` for ``` loop to loop through each character in the input string and translate them to morse code, and then add them to a seperate string. 
+
 ## Morse_Code_2
 
 ### Description
+
+In this assignment I added on to the morse code translator by making it blink an LED as the output, with different delays for dots, dashes, spaces, and word breaks.
 
 ### Evidence
 
@@ -310,6 +322,8 @@ https://github.com/jhelmke45/Engineering_4_Notebook/blob/main/raspberry-pi/morse
 https://github.com/jhelmke45/Engineering_4_Notebook/blob/main/raspberry-pi/morse2.py
 
 ### Reflection
+
+We were given the ideal delay values, so this assignment was mostly a matter of connecting an LED and implementing the different delays. To do this, I added a loop to the end that loops through the final morse string, and then delays and blinks according to what character it sees. 
 
 ## Media Test
 
