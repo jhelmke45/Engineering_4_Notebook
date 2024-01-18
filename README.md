@@ -263,8 +263,6 @@ In this assignment I made a program that takes 3 coordinate sets as an input, an
 
 ### Evidence
 
-### Wiring
-
 ### Code
 
 https://github.com/jhelmke45/Engineering_4_Notebook/blob/main/raspberry-pi/land.py
@@ -283,6 +281,10 @@ In this assignment I added on to the previous triangle program by making it prin
 
 ### Wiring
 
+![landingareawiring](https://github.com/jhelmke45/Engineering_4_Notebook/assets/113116262/a80e7b84-f66b-4413-bb1a-c7d45bd4235f)
+
+_diagram by [Elias](https://github.com/egarcia28/Engineering_4_Notebook/tree/main?tab=readme-ov-file#Raspberry_Pi_Landing_Area_2), who I worked with on this assignment_
+
 ### Code
 
 https://github.com/jhelmke45/Engineering_4_Notebook/blob/main/raspberry-pi/land.py
@@ -296,8 +298,6 @@ https://github.com/jhelmke45/Engineering_4_Notebook/blob/main/raspberry-pi/land.
 In this assignment I made a program that takes text as an input, translates it to morse code, and prints the morse code version.
 
 ### Evidence
-
-### Wiring
 
 ### Code
 
@@ -316,6 +316,10 @@ In this assignment I added on to the morse code translator by making it blink an
 ### Evidence
 
 ### Wiring
+
+![morsecode2wiring](https://github.com/jhelmke45/Engineering_4_Notebook/assets/113116262/cf259f70-b9fb-427b-a1f9-6ac87423c567)
+
+_diagram by [Elias](https://github.com/egarcia28/Engineering_4_Notebook/tree/main?tab=readme-ov-file#Raspberry_Pi_Morse_Code_2), who I worked with on this assignment_
 
 ### Code
 
