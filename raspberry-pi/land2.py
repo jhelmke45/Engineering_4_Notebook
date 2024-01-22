@@ -59,7 +59,7 @@ def tri (set1, set2, set3): # function to return area
         return area
 
     except:
-        print("invalid input, try again")
+        print("invalid input, try again")   # return -1 if coordinate invalid, and return to input sequence
         area = -1
         return area
 
