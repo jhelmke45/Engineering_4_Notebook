@@ -17,6 +17,8 @@
 * [Landing_Area_2](#Landing_Area_2)
 * [Morse_Code_1](#Morse_Code_1)
 * [Morse_Code_2](#Morse_Code_2)
+* [Data_1](#Data_1)
+* [Data_2](#Data_2)
   
 
 &nbsp;
@@ -328,6 +330,22 @@ https://github.com/jhelmke45/Engineering_4_Notebook/blob/main/raspberry-pi/morse
 ### Reflection
 
 We were given the ideal delay values, so this assignment was mostly a matter of connecting an LED and implementing the different delays. To do this, I added a loop to the end that loops through the final morse string, and then delays and blinks according to what character it sees. 
+
+## Data_1
+
+### Description
+
+### Evidence
+
+### Wiring
+
+### Code
+
+https://github.com/jhelmke45/Engineering_4_Notebook/blob/main/raspberry-pi/data1.py
+
+### Reflection
+
+## Data_2
 
 ## Media Test
 
