@@ -366,6 +366,22 @@ For this assignment I had to distinguish between "code mode" and "data mode" for
 
 ## Data_2
 
+### Description
+
+In this assignment, I took the data sheet from the previous assignment and visualized the data using different types of graphs.
+
+### Evidence
+
+![image](https://github.com/jhelmke45/Engineering_4_Notebook/assets/113116262/c71c9e21-526d-47e1-bbb4-c74f9de2893a)
+
+_acceleration and tilt charts_
+
+[Link to spreadsheet](https://docs.google.com/spreadsheets/d/1zQ6T0kcRc3-rGPZENiDnPpK4L8--ugMB2bra2QKBAKo/edit?usp=sharing)
+
+### Reflection
+
+I've never really used Sheets before, so this was a good introduction to some of it's capabilities. It was definitely more useful to see how the Pico was moving over time, instead of just looking at a bunch of numbers. You can also spot things that are true in theory, such as the constant acceleration of gravity, and see it effecting the Z acceleration in real life.
+
 ## Media Test
 
 Your readme will have various images and gifs on it. Upload a test image and test gif to make sure you've got the process figured out. Pick whatever image and gif you want!
