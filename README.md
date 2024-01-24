@@ -1,4 +1,3 @@
-[data.csv](https://github.com/jhelmke45/Engineering_4_Notebook/files/14040560/data.csv)# Engineering_4_Notebook
 
 &nbsp;
 
@@ -363,7 +362,7 @@ https://github.com/jhelmke45/Engineering_4_Notebook/blob/main/raspberry-pi/data1
 
 ### Reflection
 
-For this assignment I had to distinguish between "code mode" and "data mode" for the Pico. I had to change the ```boot.py``` file
+For this assignment I had to distinguish between "code mode" and "data mode" for the Pico. I had to change the ```boot.py``` file in order to tell the Pico which mode to be in whenever it boots up. In data mode, it can only read and save data onboard the Pico. In code mode, the data can be extracted onto the computer, and the code on the Pico can be changed. To record and save data, the Pico needs to be booted in data mode, disconnected from power, and then booted in code mode and connected to the computer.
 
 ## Data_2
 
