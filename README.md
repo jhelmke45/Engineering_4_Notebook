@@ -1,4 +1,4 @@
-# Engineering_4_Notebook
+[data.csv](https://github.com/jhelmke45/Engineering_4_Notebook/files/14040560/data.csv)# Engineering_4_Notebook
 
 &nbsp;
 
@@ -265,6 +265,8 @@ In this assignment I made a program that takes 3 coordinate sets as an input, an
 
 ### Evidence
 
+![land1-ezgif com-optimize](https://github.com/jhelmke45/Engineering_4_Notebook/assets/113116262/d269658c-7caf-4e70-8dc6-eb78b17384cf)
+
 ### Code
 
 https://github.com/jhelmke45/Engineering_4_Notebook/blob/main/raspberry-pi/land.py
@@ -281,6 +283,8 @@ In this assignment I added on to the previous triangle program by making it prin
 
 ### Evidence
 
+![land2-ezgif com-video-to-gif-converter](https://github.com/jhelmke45/Engineering_4_Notebook/assets/113116262/a303ccda-9c8c-4d45-b62c-c29421fb4a64)
+
 ### Wiring
 
 ![landingareawiring](https://github.com/jhelmke45/Engineering_4_Notebook/assets/113116262/a80e7b84-f66b-4413-bb1a-c7d45bd4235f)
@@ -293,6 +297,8 @@ https://github.com/jhelmke45/Engineering_4_Notebook/blob/main/raspberry-pi/land.
 
 ### Reflection
 
+Using the OLED screen was fun, as it's a lot more customizable than something like an LCD. I didn't have much trouble printing the lines and circle, but for whatever reason my triangle command would not work, no matter what I tried. I tried [Elias'](https://github.com/egarcia28/Engineering_4_Notebook/tree/main?tab=readme-ov-file#Raspberry_Pi_Landing_Area_2) code and it seemed to solve the problem, but I still can't find what's so different with mine. 
+
 ## Morse_Code_1
 
 ### Description
@@ -300,6 +306,8 @@ https://github.com/jhelmke45/Engineering_4_Notebook/blob/main/raspberry-pi/land.
 In this assignment I made a program that takes text as an input, translates it to morse code, and prints the morse code version.
 
 ### Evidence
+
+![morse1-ezgif com-optimize](https://github.com/jhelmke45/Engineering_4_Notebook/assets/113116262/30a6d7c3-a47b-4a96-9adc-92921c4fc1b7)
 
 ### Code
 
@@ -316,6 +324,8 @@ I like the more code-heavy assignments, so this one was fun for me. We were conv
 In this assignment I added on to the morse code translator by making it blink an LED as the output, with different delays for dots, dashes, spaces, and word breaks.
 
 ### Evidence
+
+![morse2-ezgif com-optimize](https://github.com/jhelmke45/Engineering_4_Notebook/assets/113116262/556b32a7-82c9-49fe-a29c-98de6a1aad5e)
 
 ### Wiring
 
@@ -335,15 +345,25 @@ We were given the ideal delay values, so this assignment was mostly a matter of 
 
 ### Description
 
+In this assigment, I had a battery-powered Pico collect and store data from an accelerometer, before transfering onto the computer in the form of a spreadsheet.
+
 ### Evidence
 
+[Data spreadsheet](https://github.com/jhelmke45/Engineering_4_Notebook/blob/main/raspberry-pi/data.csv)
+
 ### Wiring
+
+![Accelerometer2 wiring](https://github.com/jhelmke45/Engineering_4_Notebook/assets/113116262/0a413df7-26e6-4c03-9d2a-ecc7560c0879)
+
+_Wiring diagram from [Elias](https://github.com/egarcia28/Engineering_4_Notebook/tree/main?tab=readme-ov-file#Raspberry_Pi_Data_Storage_1), who I worked with on this assignment_
 
 ### Code
 
 https://github.com/jhelmke45/Engineering_4_Notebook/blob/main/raspberry-pi/data1.py
 
 ### Reflection
+
+For this assignment I had to distinguish between "code mode" and "data mode" for the Pico. I had to change the ```boot.py``` file
 
 ## Data_2
 
